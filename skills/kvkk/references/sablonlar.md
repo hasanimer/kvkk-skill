@@ -1,6 +1,6 @@
 # KVKK belge iskeletleri
 
-İçerik tarihi: 2026-11-21.
+İçerik tarihi: 2026-11-20.
 
 Kullanıcı taslak istediğinde uygun iskeleti ve gereken hukuki iş akışını aç. Köşeli parantezler doldurulacak olguları gösterir. Hazır isim, dayanak, aktarım ülkesi, saklama süresi, sistem adı ve alınmış önlem varsayma. İşlem hukuken kurulmamışsa taslakla birlikte gereken eylemi belirt. Kullanıcı biçim belirtmediyse kısa metin veya kopyalanabilir tablo kullan.
 

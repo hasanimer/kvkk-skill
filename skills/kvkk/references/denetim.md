@@ -1,6 +1,6 @@
 # KVKK uyum denetimi ve düzeltme planı
 
-İçerik tarihi: 2026-11-21.
+İçerik tarihi: 2026-11-20.
 
 ## Kapsam ve kanıt toplama
 

@@ -1,6 +1,6 @@
 # İlgili kişi başvurusu, şikâyet ve veri ihlali
 
-İçerik tarihi: 2026-11-21.
+İçerik tarihi: 2026-11-20.
 
 ## İlgili kişi başvurusu ve Kurula şikâyet
 

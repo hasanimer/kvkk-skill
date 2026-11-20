@@ -7,7 +7,7 @@ Sürüm numarası `skills/kvkk/SKILL.md` içindeki `metadata.version` ile aynıd
 Yayımlanmadı. Etiket itildiğinde `kvkk.zip` kendiliğinden üretilir.
 
 ### Eklenenler
-- `references/kanun-ozeti.md`: 6698 sayılı Kanunun yürürlükteki m.4, m.5/2, m.6/3, m.8, m.9, m.10–18 ve m.28 hükümlerinin bent bazında iskeleti. 21.11.2026 tarihinde Mevzuat Bilgi Sistemindeki konsolide metinle karşılaştırıldı.
+- `references/kanun-ozeti.md`: 6698 sayılı Kanunun yürürlükteki m.4, m.5/2, m.6/3, m.8, m.9, m.10–18 ve m.28 hükümlerinin bent bazında iskeleti. 20.11.2026 tarihinde Mevzuat Bilgi Sistemindeki konsolide metinle karşılaştırıldı.
 - `references/acik-riza.md`: rızanın gerekliliği, geçerlilik unsurları, sunum, geri alma, özel durumlar ve rıza metni iskeleti. 2026/347 sayılı İlke Kararı ve ekleri Resmî Gazete nüshasından okundu.
 - `references/sablonlar.md`: açık rıza metni yönlendirmesi, İmha Yönetmeliği m.6'ya göre saklama ve imha politikası iskeleti, çerez tercih paneli metni.
 - `scripts/sure_hesapla.py`: başvuru cevabı, Kurula şikâyet, ihlal bildirimi, standart sözleşme bildirimi, Kurul istemi ve kararı, zımni ret ve iptal davası süreleri için hesaplayıcı. Testleri `tests/` altında.
@@ -21,7 +21,7 @@ Yayımlanmadı. Etiket itildiğinde `kvkk.zip` kendiliğinden üretilir.
 
 ## 1.1.1
 
-21.11.2026. Avukatlık bürolarına yönelik örnekler kurgu senaryolarla güncellendi. İlk temas, aday ve referans, bülten, alıcılar ve çerezler için iş akışı korundu.
+20.11.2026. Avukatlık bürolarına yönelik örnekler kurgu senaryolarla güncellendi. İlk temas, aday ve referans, bülten, alıcılar ve çerezler için iş akışı korundu.
 
 ## 1.0.0
 

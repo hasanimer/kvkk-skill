@@ -1,6 +1,6 @@
 # Aydınlatma metni hazırlama ve inceleme
 
-İçerik tarihi: 2026-11-21.
+İçerik tarihi: 2026-11-20.
 
 **Taslak** isteniyorsa gerçek veri akışını tablolayıp ilgili kişinin okuyacağı metni üret. **Denetim** isteniyorsa önceki ifadeyi, kanıtı, hukuki dayanağı ve somut düzeltmeyi eşleştir. **Örnek** isteniyorsa [açıklamalı örnekleri](aydinlatma-ornekleri.md) kullan. Birden çok faaliyet için tek metin istense bile hedef grupları ve amaçları açıkça ayır. Gerektiğinde kısa bildirim ile ayrıntılı metni birlikte hazırla.
 

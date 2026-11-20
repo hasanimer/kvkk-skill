@@ -1,6 +1,6 @@
 # Uyum denetimi ve belge üretimi
 
-İçerik tarihi: 2026-11-21.
+İçerik tarihi: 2026-11-20.
 
 ## İşleme şartı ve veri güvenliği
 

@@ -1,6 +1,6 @@
 # 6698 sayılı Kanun: yürürlükteki metnin iskeleti
 
-Son doğrulama: 2026-11-21. Karşılaştırılan kaynak [Mevzuat Bilgi Sistemindeki konsolide metin](https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6698.pdf). Metne işlenmiş son değişiklik 7499 sayılı Kanundur (yürürlük 1 Haziran 2024).
+Son doğrulama: 2026-11-20. Karşılaştırılan kaynak [Mevzuat Bilgi Sistemindeki konsolide metin](https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6698.pdf). Metne işlenmiş son değişiklik 7499 sayılı Kanundur (yürürlük 1 Haziran 2024).
 
 Bu dosyayı bent harflerini doğru eşleştirmek ve resmî metne erişilemeyen oturumda çalışmak için aç. Özet, resmî metnin yerine geçmez. Erişim varsa konsolide metni aç ve bu tarihten sonraki değişikliği Resmî Gazete'den ara. Olay 1 Haziran 2024'ten önceyse m.6, m.9 ve m.18'in o tarihteki metnini ayrıca bul. Ezberdeki eski m.6/2–3 ve m.9 metnini güncel hüküm gibi kullanma.
 

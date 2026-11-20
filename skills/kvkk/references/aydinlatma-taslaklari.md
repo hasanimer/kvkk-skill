@@ -1,6 +1,6 @@
 # Sürece göre aydınlatma metni taslakları
 
-İçerik tarihi: 2026-11-21.
+İçerik tarihi: 2026-11-20.
 
 Talebe uyan taslağı [iş akışıyla](aydinlatma.md) birlikte kullan. Köşeli parantezleri gerçek veri akışı ve doğrulanmış hukuki sebeple doldur. Her faaliyet için elde etme yöntemini, amaç ve dayanağı ayrı yaz. Kapsama girmeyen örnekleri çıkar. Dayanak veya aktarım doğrulanmadıysa gereken yerde yer tutucu bırak ve eksik kanıtı iç notta belirt. Yer tutucuları tamamlanmış bir metin gibi teslim etme.
 

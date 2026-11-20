@@ -1,6 +1,6 @@
 # Açık rıza: gereklilik, geçerlilik ve metin
 
-İçerik tarihi: 2026-11-21. 2026/347 sayılı İlke Kararı ve ekleri [Resmî Gazete'nin 24.03.2026 tarihli nüshasından](https://www.resmigazete.gov.tr/eskiler/2026/03/20260324-3.pdf) okundu. Kurumun açık rıza rehberindeki ayrıntıları [rehber dizininden](https://www.kvkk.gov.tr/Icerik/2030/rehberler) güncel metinle doğrula.
+İçerik tarihi: 2026-11-20. 2026/347 sayılı İlke Kararı ve ekleri [Resmî Gazete'nin 24.03.2026 tarihli nüshasından](https://www.resmigazete.gov.tr/eskiler/2026/03/20260324-3.pdf) okundu. Kurumun açık rıza rehberindeki ayrıntıları [rehber dizininden](https://www.kvkk.gov.tr/Icerik/2030/rehberler) güncel metinle doğrula.
 
 Bu akışı açık rıza metni hazırlarken, mevcut rıza kaydını denetlerken veya bir işleme için rızanın gerekip gerekmediği sorulduğunda aç. Aydınlatma tarafı için [aydınlatma iş akışını](aydinlatma.md), bent harfleri için [Kanun iskeletini](kanun-ozeti.md) kullan.
 

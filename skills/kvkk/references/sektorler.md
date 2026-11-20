@@ -1,6 +1,6 @@
 # Sektöre ve kullanım senaryosuna göre KVKK incelemesi
 
-İçerik tarihi: 2026-11-21.
+İçerik tarihi: 2026-11-20.
 
 Sadece talebe uyan bölümleri kullan. Her senaryoda önce gerçek veri akışını belirle. Önerilen kullanıcı deneyimi, metin veya sözleşme maddesini mevcut sistem ayarı ve uygulama kanıtıyla karşılaştır. Kurul kararının olay tarihine uygulanabilirliğini ve kapsamını teyit et.
 

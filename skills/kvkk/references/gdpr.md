@@ -1,6 +1,6 @@
 # KVKK ve GDPR birlikte gündeme geldiğinde
 
-İçerik tarihi: 2026-11-21.
+İçerik tarihi: 2026-11-20.
 
 [GDPR-info.eu](https://gdpr-info.eu/) maddeler ve gerekçeler arasında hızlı gezinmeye yardımcı olur. AB hukukuna ilişkin sonucu [EUR-Lex'teki GDPR metni](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng), güncel değişiklik/düzeltmeler, ilgili ülke mevzuatı, AB Adalet Divanı kararları ve Avrupa Veri Koruma Kurulu belgeleriyle doğrula. KVKK dayanağını ayrı kaydet.
 

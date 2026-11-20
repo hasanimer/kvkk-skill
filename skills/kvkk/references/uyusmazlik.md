@@ -1,6 +1,6 @@
 # Kurul incelemesi, idari dava ve ihlal müdahalesi
 
-İçerik tarihi: 2026-11-21.
+İçerik tarihi: 2026-11-20.
 
 Başvuru, şikâyet ve ihlal bildiriminin temel şartları için [Başvuru ve ihlal](basvuru-ihlal.md) dosyasını aç. Önce tarafı, işlemin türünü, tebliği ve istenen sonuca uygun yolu belirle. Birden çok süre varsa her biri için tetikleyici, gün türü, süre sonu ve delilini ayrı yaz.
 
