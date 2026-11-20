@@ -1,6 +1,6 @@
 ---
 name: kvkk
-description: 6698 sayılı Kanun kapsamında KVKK uyumu, VERBİS, yurt dışına aktarım, Kurul şikâyeti, veri ihlali ve belge taslağı için kaynaklı inceleme yapar.
+description: 6698 sayılı Kanun kapsamında aydınlatma metni hazırlama ve denetimi, KVKK uyumu, VERBİS, yurt dışına aktarım, Kurul şikâyeti, veri ihlali ve belge taslağı için kaynaklı inceleme yapar.
 ---
 
 # KVKK
@@ -13,7 +13,9 @@ Bir talep birden fazla iş akışına giriyorsa ilgili bölümlerin tümünü a�
 
 | Talep | Açılacak kaynak |
 |---|---|
-| İşleme şartı, açık rıza, aydınlatma, envanter, VERBİS, imha ve veri işleyen | [Temel uyum](references/uyum.md) |
+| İşleme şartı, envanter, VERBİS, imha ve veri işleyen | [Temel uyum](references/uyum.md) |
+| Aydınlatma metni hazırlama veya denetleme, açık rıza ayrımı, katmanlı sunum ve bildirim zamanı | [Aydınlatma iş akışı](references/aydinlatma.md) |
+| Aydınlatma metni örnekleri veya sektöre göre doldurulabilir iskelet | [Yayımlanmış örnekler](references/aydinlatma-ornekleri.md) · [Taslaklar](references/aydinlatma-taslaklari.md) |
 | Uyum projesi ve eğitimi, iş birimi ve sistem incelemesi, saklama ve imha matrisi, bulgu ve düzeltme planı | [Uyum denetimi](references/denetim.md) |
 | Çalışan denetimi, çerez ve e-ticaret, sağlık, yapay zekâ veya kamera | [Sektörler ve kullanım senaryoları](references/sektorler.md) |
 | Avukatlık bürosu, tevkil, stajyer ve çalışan erişimi, dava ve icra dosyası, meslek sırrı veya büroda yapay zekâ | [Avukatlık uygulaması](references/avukatlik.md) |
@@ -21,7 +23,7 @@ Bir talep birden fazla iş akışına giriyorsa ilgili bölümlerin tümünü a�
 | Standart sözleşme modülü, imza ve ekler, Kurum portalı, bildirim, değişiklik ve sona erme | [Standart sözleşme uygulaması](references/aktarim-uygulama.md) |
 | İlgili kişi başvurusu ve cevabı, Kurula şikâyet, veri ihlali ve bildirim | [Başvuru ve ihlal](references/basvuru-ihlal.md) |
 | Kurul yazısına veya kararına cevap, yaptırım, iptal davası, delil ve ihlal müdahale planı | [Uyuşmazlık ve müdahale](references/uyusmazlik.md) |
-| Aydınlatma, açık rıza, veri işleyen eki, başvuru, cevap, şikâyet, ihlal veya görüş taslağı | [Belge iskeletleri](references/sablonlar.md) |
+| Veri işleyen eki, başvuru, cevap, şikâyet, ihlal veya görüş taslağı | [Belge iskeletleri](references/sablonlar.md) |
 | Belge sınıflandırma, kişisel veri tespiti, maskeleme aracı veya dışa aktarım öncesi teknik kontrol | [Kişisel veri tespiti](references/kisisel-veri-tespiti.md) |
 | KVKK ile birlikte GDPR kapsamı, AB–Türkiye veri akışı veya iki rejimin süre ve yükümlülüklerinin karşılaştırılması | [GDPR karşılaştırması](references/gdpr.md) |
 | Güncel dayanağı, resmi formu, ilke kararını veya ceza tutarını bulma | [Resmî kaynaklar](references/kaynaklar.md) |

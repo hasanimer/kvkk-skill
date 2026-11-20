@@ -4,6 +4,8 @@
 
 Avukatlık büroları, çalışan denetimi, sağlık, e-ticaret ve yapay zekâ için ayrı uygulama notları içerir. KVKK ve GDPR birlikte gündeme geldiğinde iki rejimin kapsamını, aktarım yollarını ve sürelerini ayrı inceler. Paket Markdown dosyalarından oluşur. API anahtarı, model kurulumu veya ücretli bağlantı gerektirmez.
 
+Aydınlatma metni hazırlarken [iş akışı](skills/kvkk/references/aydinlatma.md), her faaliyet için veri, amaç, hukuki sebep ve alıcıyı eşleştirir. [Doldurulabilir iskeletler](skills/kvkk/references/aydinlatma-taslaklari.md) ve [yayımlanmış örnekler](skills/kvkk/references/aydinlatma-ornekleri.md) taslak hazırlama ve mevcut metni inceleme için ayrı yollar sağlar.
+
 ## Kurulum
 
 | Ortam | Kurulum | Başlatma |
@@ -27,6 +29,7 @@ Windows'ta `~` kullanıcı profilini ifade eder. Claude web yüklemesi için yay
 - “Bir kliniğin yurt dışındaki yazılım sağlayıcısı sağlık kayıtlarına uzaktan erişiyor. Veri akışını, aktarım yolunu, standart sözleşme türünü ve eksik kanıtları belirle.”
 - “Veri sorumlusu silme talebine 40. günde cevap verdi. Kurula şikâyet süresini değerlendir ve başvuru eklerini listele.”
 - “Avukatlık bürosu için aday müvekkil görüşmelerini, tevkil ve dava dosyalarının saklanmasını ele alan bir envanter taslağı oluştur.”
+- “İletişim formundaki aydınlatmayı denetle. Formun gönderim koşulunu ve pazarlama seçimini ayır. Eksik alıcıları ve doğrulanmamış aktarım iddialarını tespit et.”
 
 [Beceri giriş dosyası](skills/kvkk/SKILL.md) iş akışlarını yönlendirir. [Değerlendirme senaryoları](EVALUATION.md) süre, dayanak, yetki ve kaynak doğrulamasını sınamak için kullanılabilir. GitHub sorun bildirimlerinde örnekleri sentetik tut ve gerçek kişi bilgileri ile müvekkil belgelerini çıkar.
 

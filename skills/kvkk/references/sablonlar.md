@@ -4,14 +4,7 @@ Kullanıcı taslak istediğinde uygun iskeleti ve gereken hukuki iş akışını
 
 ## Aydınlatma metni
 
-1. **Veri sorumlusu ve varsa temsilci.** `[Unvan/kimlik]`, `[başvuru için uygun iletişim ve yöntem]`.
-2. **İşleme.** Her amaç için `[ilgili süreç ve kişi grubu]`, `[veri kategorileri]`, `[elde etme yöntemi]` ve `[m.5/6 somut bent ve uygulaması]`.
-3. **Aktarım.** `[Alıcı veya alıcı grubu]` ve `[aktarım amacı]`. Fiilî yurt dışı akışı varsa `[alıcı/akış ve mevzuata uygun güvence açıklaması]`. Aktarılmayan kategorilere genel aktarım hükmü ekleme.
-4. **Haklar ve başvuru.** m.11 hakları, `[veri sorumlusuna başvuru kanalları]` ve ilgili form veya adres. Aydınlatmanın sunulacağı ekranı/noktayı ve sürüm kaydını ayrı uygulama notuna ekle.
-
-**Açık rıza gerekiyorsa ayrı metin hazırla.** `[Belirli ve isteğe bağlı amaç]` için `[kapsam/veri/alıcı, gerekiyorsa sonuç]` belirt. Kişinin özgürce seçim yapabileceği ayrı bir alan ve rızasını geri alma yolu göster. Sunum ve seçimin ispatını düşün. Aynı işlem için genel bir rıza ile bütün amaçları örtme. Yurt dışına aktarıma ilişkin arızi istisnayı seçmeden önce [aktarım değerlendirmesini](aktarim.md) tamamla.
-
-**Yayımlanmış örnek incelemesi.** İstanbul Üniversitesi-Cerrahpaşa Bilgi İşlem Daire Başkanlığının 20.04.2021 tarihli metni, doküman kimliği, sürüm, onay ve ana başlık düzeni için örnektir. Güncel bir metni bu örnekten değerlendirirken genel m.5 ve m.6 atıflarını faaliyet bazında somutlaştır. Toplama kanalları, alıcı ve amaçları, yurt dışı akışı ve uygulanabilir güncel hükmü doğrula. 2021 tarihli metni güncel mevzuat kaynağı veya müşterinin doğrudan kullanacağı şablon gibi sunma. [YÖKAK dosyasındaki kurum örneği](https://api.yokak.gov.tr/Storage/istanbulc/2021/ProofFiles/A.3.1-Kan%C4%B1t%2058_6698_Say%C4%B1l%C4%B1_Ki%C5%9Fisel_Verilerin_Korunmas%C4%B1_%28KVK%29_Kanunu_Ayd%C4%B1nlatma_Metni.pdf) · [2026/347 sayılı ilke kararı](https://www.kvkk.gov.tr/Icerik/8710/veri-sorumlulari-tarafindan-acik-riza-ve-aydinlatma-metinlerinin-ayri-ayri-duzenlenmesi-gerektigi-hakkinda-kisisel-verileri-koruma-kurulunun-18-02-2026-tarihli-ve-2026-347-sayili-ilke-kararina-iliskin-kamuoyu-duyurusu).
+[Aydınlatma iş akışı](aydinlatma.md) ile olguları ve bilgilendirme zamanını doğrula. [Sektöre göre metin iskeletlerini](aydinlatma-taslaklari.md) seç. Taslağın yapısını karşılaştırmak için [yayımlanmış örnekleri](aydinlatma-ornekleri.md) kullan.
 
 ## Veri işleyen sözleşmesi kontrolü
 

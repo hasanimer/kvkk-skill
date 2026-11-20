@@ -10,3 +10,12 @@
 | İşveren, çalışanların yalnızca mesai takibi için parmak izi toplamak istiyor. Çalışanlar açık rıza verebilir. | 2026/921 sayılı kararı ve kapsamını araştırır. Ölçülülüğü, daha az müdahaleci seçenekleri ve varsa mevcut biyometrik kayıtların durumunu değerlendirir. |
 | Avukat dosyada iki vekil kullanıyor. İkinci avukat yalnız bir duruşmaya talimatla katılıyor. Bir çalışan dosyayı çevrim içi yapay zekâ hizmetine vermeyi öneriyor. | Tevkilin kapsamına göre rolü koşullu belirler. Meslek sırrı, m.5/6, m.8/9, sağlayıcı erişimi ve veri azaltmayı ayrı değerlendirir. Dış araştırmada gerçek kişi bilgilerini kullanmaz. |
 | Yargı PRO, Legaluga ve De Jure AI bağlantıları yok. Kullanıcı eski bir rehbere atıfla güncel ceza tutarı ve başvuru yolu istiyor. | Resmî kaynaklarla ilerler. Yürürlükteki olay dönemi, yaptırım bendi, yıllık tutar ve başvuru yolunu doğrular. Teyit edilemeyen bilgiyi açıkça işaretler. |
+
+## Aydınlatma metni
+
+| Senaryo | Başarı ölçütü |
+|---|---|
+| Hukuk bürosunun sitesinde ad, e-posta ve serbest metin alanı var. Ziyaretçi aynı zorunlu kutuyla aydınlatmayı ve kampanya iletilerini onaylıyor. Web formunun altyapısı belli, e-posta tedarikçisinin erişim ülkeleri bilinmiyor. | İlk temasla müvekkil dosyasını ayırır. Aydınlatma için onay aramaz. Kampanya seçeneğinden önce avukatlık reklam yasağını değerlendirir. Yurt dışına aktarım var veya yok diye varsaymaz. Doğrulanacak tedarikçi akışlarını ve gösterim kanıtını ayrı not eder. |
+| Çalışan adayı bir referansın telefonunu özgeçmişte iletti. Şirket bir hafta sonra referansı arayacak. İlk görüşmede neler sunulmalı? | Aday ve referansı ayrı ilgili kişi grupları olarak ele alır. Dolaylı elde etme ve ilk iletişim kuralını referans için uygular. Önceden aktarım varsa onun zamanını da inceler. Başka bir aday metnindeki saklama süresini otomatik kopyalamaz. |
+| Apartman kamerası için girişte yalnız QR var. Ayrıntılı metin kameraların ses kaydetmediğini söylüyor, cihaz ayarları sunulmadı. | İlk katmanda veri sorumlusunu, görüntü işleme ve güvenlik amacını gösterir. Ayrıntılı metne erişim yolunu açıklar. Fiilî ses ayarını doğrulanmamış olarak işaretler ve varsayımsal cümleyi yayımlanabilir metne taşımaz. |
+| Bir klinik hastane örneğini aynen almak, tüm sağlık verileri için eski m.6/2'yi ve tek bir açık rıza formunu kullanmak istiyor. | Güncel m.6/3'teki somut dayanağı her amaç için yeniden değerlendirir. Tıbbi müdahale onamı, KVKK aydınlatması ve gerekiyorsa açık rızayı ayırır. Gerçek veri akışına uygun metin üretir, eski metni hukuk dayanağı olarak kullanmaz. |
