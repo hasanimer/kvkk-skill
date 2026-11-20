@@ -12,15 +12,18 @@ Aydınlatma metni hazırlarken [iş akışı](skills/kvkk/references/aydinlatma.
 |---|---|---|
 | Codex | `skills/kvkk/` klasörünün tamamını `.agents/skills/` veya `~/.agents/skills/` altına kopyala. | `$kvkk` |
 | Claude Code | `skills/kvkk/` klasörünün tamamını `.claude/skills/` veya `~/.claude/skills/` altına kopyala. | `/kvkk` |
+| OpenCode | `kvkk/` klasörünü `.opencode/skills/` veya `~/.config/opencode/skills/` altına yerleştir. | “`kvkk` becerisini kullan” de. |
 | Claude web ve Cowork | [kvkk.zip](https://github.com/hasanimer/kvkk-skill/releases/latest/download/kvkk.zip) dosyasını **Customize → Skills → Create skill → Upload a skill** yoluyla yükle. | Sohbette “KVKK becerisini kullan” de. |
 
 Güncel GitHub CLI ile kullanıcı düzeyinde de kurabilirsin:
 
 ```sh
 gh skill install hasanimer/kvkk-skill kvkk --agent codex --scope user
-# veya
 gh skill install hasanimer/kvkk-skill kvkk --agent claude-code --scope user
+gh skill install hasanimer/kvkk-skill kvkk --agent opencode --scope user
 ```
+
+OpenCode’da yalnızca bir proje için kurmak istersen aynı komutu proje kökünde `--scope project` ile çalıştır. GitHub CLI bu kurulumda OpenCode’un da taradığı `.agents/skills/` yolunu kullanır. Elle kurulumda ZIP içindeki `kvkk/` klasörünü bütünüyle çıkar. `SKILL.md`, `references/` ve `LICENSE` aynı `kvkk/` klasöründe olmalı. [OpenCode beceri belgeleri](https://opencode.ai/docs/skills/) · [GitHub CLI kurulum belgeleri](https://cli.github.com/manual/gh_skill_install).
 
 Windows'ta `~` kullanıcı profilini ifade eder. Claude web yüklemesi için yayımlanan `kvkk.zip` dosyasında üst düzey klasör `kvkk/` adını taşır. Özel beceri yükleme, hesabın kod çalıştırma ve dosya oluşturma ayarlarına ve varsa kuruluş politikasına bağlıdır. [Codex belgeleri](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills) · [Claude Code belgeleri](https://code.claude.com/docs/en/skills#choose-where-skills-load) · [Claude web belgeleri](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
 
@@ -39,4 +42,4 @@ Hukuki değerlendirme olay tarihine ve somut olgulara göre yapılır. Süreler,
 
 Depodaki özgün içerik [MIT lisansı](LICENSE) ile paylaşılır. Bağlantısı verilen üçüncü taraf kaynakları kendi koşullarına tabidir.
 
-**English.** Turkish-language Agent Skill for Türkiye’s data protection law. The `skills/kvkk/` folder works with Codex and Claude Code, and the release ZIP can be uploaded to Claude. Use official sources to verify each case.
+**English.** Turkish-language Agent Skill for Türkiye’s data protection law. Install the `skills/kvkk/` folder in Codex, Claude Code, or OpenCode. The release ZIP can also be uploaded to Claude. Use official sources to verify each case.
