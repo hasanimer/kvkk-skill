@@ -1,5 +1,7 @@
 # Uyum denetimi ve belge üretimi
 
+İçerik tarihi: 2026-11-21.
+
 ## İşleme şartı ve veri güvenliği
 
 - Amaçları ayrıştır. Sözleşmenin kurulması veya ifası için m.5/2(c) kapsamında taraf ve doğrudan gereklilik bağını göster. Hukuki yükümlülük için somut normu, meşru menfaat için gereklilik, temel haklarla denge ve daha az müdahaleci yöntemleri incele. İhtiyaç dışı veri alanını veya saklama süresini rıza ile gerekçelendirme.

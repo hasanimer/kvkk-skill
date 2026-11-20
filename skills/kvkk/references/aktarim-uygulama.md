@@ -1,5 +1,7 @@
 # Yurt dışına aktarım dosyası ve standart sözleşme bildirimi
 
+İçerik tarihi: 2026-11-21.
+
 Bu modülü standart sözleşme hazırlığı, mevcut aktarımın denetimi, bulut veya yapay zekâ tedariki ve bildirim dosyasının hazırlanmasında aç. Hukuki yolu önce [aktarım karar ağacından](aktarim.md) belirle. Bir sonuca ulaşmak için eksik her olguya bir belge, doğrulayacak kişi ve tarih bağla.
 
 ## 1. Veri akışını ve taraf rollerini kanıtla

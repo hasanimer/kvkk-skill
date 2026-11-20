@@ -1,5 +1,7 @@
 # Yurt dışına veri aktarımı
 
+İçerik tarihi: 2026-11-21.
+
 Fiilî akışı haritala. Veri aktaran/alıcı, işleme amaç ve rolleri, veri kategorisi, ülke, sıklık, erişim ve sonraki aktarımları belirle. Barındırma, destek erişimi, yedek, telemetri, alt işleyen veya yapay zekâ hizmetinde sağlayıcıya içerik verme ayrı akışlar olabilir. Türkiye'de barındırma iddiasında yurt dışından erişim ve alt işleyenleri de araştır. Kişisel verileri yurt dışındaki ayrı bir alıcıya erişilebilir kılmak için verinin indirilmiş olması gerekmez. Tedarikçi rolünü sözleşmedeki etiketten ziyade fiilî işleviyle değerlendir.
 
 ## İşlem tarihine göre m.9

@@ -1,5 +1,7 @@
 # Aydınlatma metni hazırlama ve inceleme
 
+İçerik tarihi: 2026-11-21.
+
 **Taslak** isteniyorsa gerçek veri akışını tablolayıp ilgili kişinin okuyacağı metni üret. **Denetim** isteniyorsa önceki ifadeyi, kanıtı, hukuki dayanağı ve somut düzeltmeyi eşleştir. **Örnek** isteniyorsa [açıklamalı örnekleri](aydinlatma-ornekleri.md) kullan. Birden çok faaliyet için tek metin istense bile hedef grupları ve amaçları açıkça ayır. Gerektiğinde kısa bildirim ile ayrıntılı metni birlikte hazırla.
 
 ## Önce faaliyeti çöz
@@ -25,6 +27,8 @@ Elde etme yönteminde somut kanalı ve otomatik, kısmen otomatik ya da veri kay
 Katmanlı sunumda ilk ekranda veya levhada kim, hangi faaliyeti ve hangi amaçla yürütüyor sorularını cevapla. Ayrıntılı, faaliyete özgü metne doğrudan bağlantı, QR veya uygun erişilebilir kanal ver. Genel gizlilik politikasına yönlendirmekle yetinme. İlk katmanı, ayrıntı bağlantısını ve varsa geri dönüp tercih değiştirme yolunu gerçek kullanıcı akışında kontrol et. İspat veri sorumlusuna aittir. Gerekli kayıtları ölçülü tut. [Kurumun aydınlatma duyurusu](https://www.kvkk.gov.tr/Icerik/6765/AYDINLATMA-YUKUMLULUGUNUN-YERINE-GETIRILMESI-HAKKINDA-KAMUOYU-DUYURUSU).
 
 ## Açık rıza kontrolü
+
+Rızanın gerekliliği, geçerlilik unsurları, geri alma ve rıza metni iskeleti için [açık rıza akışını](acik-riza.md) aç.
 
 - Aydınlatma, rızaya veya başka koşula dayalı işleme bakımından kural olarak ayrı bir yükümlülüktür. Uygulanabilir istisna iddiasında m.28'in somut şartı ve kapsamını değerlendir. Kayıt istisnasını otomatik aydınlatma istisnası sayma.
 - Rıza gerekiyorsa aydınlatma ile özgür, bilgilendirilmiş ve belirli amaca özgü rıza beyanını ayrı düzenle. Aynı sayfada ayrı başlıklar ve ayrı beyanlar kullan. Bilgilendirmenin ispatı için okunma veya bilgi edinmeye ilişkin kayıt tutulabilir. Aydınlatmaya onay veya rıza isteme. Rıza için seçimi, gerektiğinde amaç bazında ayırmayı, geri alma yolunu ve asıl hizmetin koşullarını göster. Rıza dışındaki geçerli şartla yürütülen işleme sırf belge var diye rıza ekleme. [2026/347 sayılı ilke kararı](https://www.kvkk.gov.tr/Icerik/8710/veri-sorumlulari-tarafindan-acik-riza-ve-aydinlatma-metinlerinin-ayri-ayri-duzenlenmesi-gerektigi-hakkinda-kisisel-verileri-koruma-kurulunun-18-02-2026-tarihli-ve-2026-347-sayili-ilke-kararina-iliskin-kamuoyu-duyurusu).

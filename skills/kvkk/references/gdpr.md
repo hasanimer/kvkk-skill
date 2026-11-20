@@ -1,5 +1,7 @@
 # KVKK ve GDPR birlikte gündeme geldiğinde
 
+İçerik tarihi: 2026-11-21.
+
 [GDPR-info.eu](https://gdpr-info.eu/) maddeler ve gerekçeler arasında hızlı gezinmeye yardımcı olur. AB hukukuna ilişkin sonucu [EUR-Lex'teki GDPR metni](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng), güncel değişiklik/düzeltmeler, ilgili ülke mevzuatı, AB Adalet Divanı kararları ve Avrupa Veri Koruma Kurulu belgeleriyle doğrula. KVKK dayanağını ayrı kaydet.
 
 1. Her faaliyet için GDPR m.3'ü ayrı incele. AB'deki yerleşik birimin faaliyetleri bağlamı, AB'de bulunan kişilere mal veya hizmet sunmanın hedeflenmesi veya AB'de gerçekleşen davranışın izlenmesi olgularını araştır. Vatandaşlık, web sitesine AB'den erişilebilmesi veya AB sunucusu bulunması tek başına kapsamı çözmez. Rol ve faaliyet için GDPR m.27 temsilci gereğini ayrıca değerlendir. [EDPB 3/2018](https://www.edpb.europa.eu/documents/guideline/guidelines-32018-on-the-territorial-scope-of-the-gdpr-article-3-version-adopted_en).

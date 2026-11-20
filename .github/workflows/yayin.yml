@@ -1,0 +1,45 @@
+name: Yayın paketi
+
+# v ile başlayan bir etiket itildiğinde kvkk.zip üretir ve aynı etiketin
+# yayınına ekler. Zip içinde üst klasör kvkk/ olur.
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  paket:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Doğrula ve test et
+        run: |
+          python3 tools/dogrula.py
+          python3 -m unittest discover -s tests
+      - name: Etiket ile beceri sürümünü karşılaştır
+        run: |
+          surum=$(sed -n 's/^  version: "\(.*\)"$/\1/p' skills/kvkk/SKILL.md)
+          if [ "v$surum" != "$GITHUB_REF_NAME" ]; then
+            echo "Etiket $GITHUB_REF_NAME, SKILL.md sürümü v$surum" >&2
+            exit 1
+          fi
+      - name: kvkk.zip üret
+        run: |
+          cd skills
+          zip -r ../kvkk.zip kvkk -x '*/__pycache__/*' '*.pyc'
+          unzip -l ../kvkk.zip
+      - name: Yayına ekle
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" kvkk.zip --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" kvkk.zip --title "KVKK Skill $GITHUB_REF_NAME" --generate-notes
+          fi

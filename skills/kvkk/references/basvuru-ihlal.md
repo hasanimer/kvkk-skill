@@ -1,5 +1,7 @@
 # İlgili kişi başvurusu, şikâyet ve veri ihlali
 
+İçerik tarihi: 2026-11-21.
+
 ## İlgili kişi başvurusu ve Kurula şikâyet
 
 - İlgili kişinin m.11 taleplerini tek tek eşleştir. Kimlik veya temsil yetkisini güvenli ve ölçülü biçimde doğrula. Başvuru içeriğini, kullanılan yöntemi ve başvurunun ulaştığı tarihi Tebliğden kontrol et. Başvuru, teslim, cevap, tebliğ ve cevabı öğrenme tarihlerini göster ve ispat belgelerini kaydet.

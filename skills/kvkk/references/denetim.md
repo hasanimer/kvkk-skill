@@ -1,5 +1,7 @@
 # KVKK uyum denetimi ve düzeltme planı
 
+İçerik tarihi: 2026-11-21.
+
 ## Kapsam ve kanıt toplama
 
 1. İncelenen tüzel kişileri, iş birimlerini, sistemleri, siteleri, dönemi ve tedarikçileri belirle. Grup şirketlerinin veri akışında her tüzel kişinin rolünü ve paylaşımın dayanağını ayrı göster. Kapsam dışı kalan süreçleri belirt.

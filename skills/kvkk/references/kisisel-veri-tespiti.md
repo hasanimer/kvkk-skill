@@ -1,5 +1,7 @@
 # Yerel kişisel veri tespiti ve maskeleme
 
+İçerik tarihi: 2026-11-21.
+
 Bu bölümü çok sayıda Türkçe belgeyi ön elemeden geçirmek, sistemden çıkacak bir metni kontrol etmek veya maskeleme aracını değerlendirmek gerektiğinde aç. Araçların çıktısı inceleme sırası ve aday veri alanları belirlemek için kullanılır. m.5, m.6, m.8 ve m.9 değerlendirmesini işlem, amaç, taraf ve fiilî aktarım üzerinden yap.
 
 | Aday | Kullanım alanı | Kontrol |

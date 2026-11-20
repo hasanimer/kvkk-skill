@@ -1,0 +1,31 @@
+name: Dış bağlantı denetimi
+
+# Kurum ve Resmî Gazete bağlantıları zamanla taşınabilir. Bu iş haftada bir
+# çalışır ve elle de başlatılabilir. Başarısızlık, listelenen bağlantıların
+# elle kontrol edilmesi gerektiğini gösterir; bazı resmî siteler otomatik
+# istekleri reddedebilir.
+
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  baglanti:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 4
+            --max-retries 2
+            --timeout 30
+            --accept 200,206,403,429
+            --user-agent "Mozilla/5.0 (X11; Linux x86_64) link-check"
+            "README.md" "EVALUATION.md" "skills/**/*.md"
+          fail: true

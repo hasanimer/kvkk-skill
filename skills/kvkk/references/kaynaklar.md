@@ -1,5 +1,7 @@
 # Resmî kaynaklar ve doğrulama
 
+İçerik tarihi: 2026-11-21.
+
 İşlem ve inceleme tarihini ayrı kaydet. Yürürlük, geçmiş metin ve geçiş hükmü için Resmî Gazete ile konsolide Türkçe metni birlikte kullan. Aşağıdaki bağlantılar araştırma giriş noktalarıdır. URL açılmazsa başlığı Kurum sitesinde veya Resmî Gazete'de ara. İndeks önizlemesi hükmün tamamını doğrulamıyorsa yetkili metnin başka nüshasını aç.
 
 | Konu | Resmî kaynak |

@@ -1,10 +1,50 @@
 # KVKK belge iskeletleri
 
+İçerik tarihi: 2026-11-21.
+
 Kullanıcı taslak istediğinde uygun iskeleti ve gereken hukuki iş akışını aç. Köşeli parantezler doldurulacak olguları gösterir. Hazır isim, dayanak, aktarım ülkesi, saklama süresi, sistem adı ve alınmış önlem varsayma. İşlem hukuken kurulmamışsa taslakla birlikte gereken eylemi belirt. Kullanıcı biçim belirtmediyse kısa metin veya kopyalanabilir tablo kullan.
 
 ## Aydınlatma metni
 
 [Aydınlatma iş akışı](aydinlatma.md) ile olguları ve bilgilendirme zamanını doğrula. [Sektöre göre metin iskeletlerini](aydinlatma-taslaklari.md) seç. Taslağın yapısını karşılaştırmak için [yayımlanmış örnekleri](aydinlatma-ornekleri.md) kullan.
+
+## Açık rıza metni
+
+Önce rızanın gerçekten gerekli olduğunu [açık rıza akışıyla](acik-riza.md) doğrula. Metin iskeleti aynı dosyanın 5. bölümündedir. Aydınlatma metninden ayrı başlık ve ayrı beyanla sun.
+
+## Saklama ve imha politikası
+
+İmha Yönetmeliği m.5 politikayı sicile kayıt yükümlüsü veri sorumluları için zorunlu kılar ve envantere uygun hazırlanmasını ister. Politikanın bulunması tek başına uygunluğu göstermez. Aşağıdaki başlıklar m.6'daki asgari içeriktir. Maddeleri [Yönetmeliğin güncel metniyle](https://www.kvkk.gov.tr/Icerik/5441/KISISEL-VERILERIN-SILINMESI-YOK-EDILMESI-VEYA-ANONIM-HALE-GETIRILMESI-HAKKINDA-YONETMELIK) karşılaştır.
+
+| m.6 bendi | Bölüm | Doldurulacak esas |
+|---|---|---|
+| a | Amaç | `[Politikanın hazırlanma amacı ve kapsadığı tüzel kişi]` |
+| b | Kayıt ortamları | `[Sunucu, uygulama, e-posta, yedek, kâğıt arşiv, taşınabilir ortam, tedarikçi sistemi]` |
+| c | Tanımlar | `[Metinde kullanılan hukuki ve teknik terimler]` |
+| ç | Saklama ve imha sebepleri | `[Her veri grubu için saklamayı gerektiren norm veya amaç, imhayı gerektiren olay]` |
+| d | Saklama tedbirleri | `[Fiilen uygulanan teknik ve idari tedbirler, özel nitelikli veri için ek önlem]` |
+| e | İmha tedbirleri | `[Silme, yok etme, anonimleştirme yöntemi, yedek ve tedarikçi kopyası, imha kaydı]` |
+| f | Görevliler | `[Unvan, birim ve görev tanımı]` |
+| g | Süre tablosu | `[Süreç, veri grubu, saklama süresi ve başlangıç olayı, dayanak, imha süresi]` |
+| ğ | Periyodik imha | `[Aralık; altı ayı geçemez (m.11/2)]` |
+| h | Güncelleme | `[Sürüm, tarih ve değişiklik]` |
+
+Süre tablosunu envanterdeki ve sicildeki azami sürelerle aynı tut. Dayanağı bilinmeyen süreyi tahminle doldurma, `[DOLDURULACAK: dayanak]` bırak. İmha işlemlerinin kaydı diğer hukuki yükümlülükler hariç en az üç yıl saklanır (m.7/3). Uygulama kontrolü için [uyum denetimini](denetim.md) aç.
+
+## Çerez tercih paneli
+
+İlk katman kısa olsun. Seçenekleri sitenin gerçekten çalıştırdığı araçlarla eşleştir.
+
+```text
+[Veri sorumlusu] olarak sitenin çalışması için zorunlu çerezleri kullanıyoruz.
+[Analitik / reklam / kişiselleştirme] çerezlerini yalnız izin verirseniz çalıştırırız.
+
+[Tümünü reddet]   [Tümünü kabul et]   [Tercihleri yönet]
+
+Ayrıntılar: [çerez aydınlatma metni bağlantısı]
+```
+
+Tercih ekranında her kategori için amaç, sağlayıcı ve süreyi göster, isteğe bağlı kategorileri kapalı başlat ve tercihi sonradan değiştirme yolunu her sayfadan erişilebilir kıl. Kabul ve ret seçeneklerinin sunumu için [Çerez Rehberindeki](https://www.kvkk.gov.tr/Icerik/7353/Cerez-Uygulamalari-Hakkinda-Rehber) tavsiyeleri kontrol et. Panel metnini yazmadan önce çerez tablosunu [taslaklardaki](aydinlatma-taslaklari.md) biçimle çıkar ve rıza öncesi davranışı [sektör akışındaki](sektorler.md) testle doğrula.
 
 ## Veri işleyen sözleşmesi kontrolü
 

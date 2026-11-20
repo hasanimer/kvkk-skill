@@ -1,5 +1,7 @@
 # Avukatlık bürosunda KVKK uygulaması
 
+İçerik tarihi: 2026-11-21.
+
 Bu iş akışı, Kurumun Türkiye Barolar Birliğinin katkısıyla hazırladığı Temmuz 2026 tarihli rehbere dayanır. Rehber olguları sınıflandırmak için kullanılır. Sonucu 6698, Avukatlık Kanunu ve olayda geçerli usul hükümlerine bağla. Rehberde roller için s.38–60, edinme, açıklama ve aktarım için s.71–122, yükümlülükler ve güvenlik için s.129–148'i aç. [Rehberin resmî yayım sayfası](https://www.kvkk.gov.tr/Icerik/8990/avukatlarin-mesleki-faaliyetlerinde-kisisel-verilerin-korunmasina-iliskin-uygulama-rehberi-yayimlandi).
 
 ## Taraflar ve yetki

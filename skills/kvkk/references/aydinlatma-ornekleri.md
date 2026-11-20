@@ -1,5 +1,7 @@
 # Aydınlatma metni örnekleri
 
+İçerik tarihi: 2026-11-21.
+
 Bu kataloğu benzer bir metnin düzenini incelemek ve taslaktaki eksikleri bulmak için kullan. Veri sorumlusunun kendi işleme envanteri, toplama kanalı, amacı, somut hukuki dayanağı ve aktarımı metnin içeriğini belirler. Örneklerin çevrim içi form, kamera levhası ve diğer uygulama noktalarındaki sunumunu ayrıca doğrula. Taslak düzeni için [sektörel iskeletlere](aydinlatma-taslaklari.md) bak.
 
 ## Kurumun yayımladığı ölçütler ve şablonlar

@@ -1,5 +1,7 @@
 # Sürece göre aydınlatma metni taslakları
 
+İçerik tarihi: 2026-11-21.
+
 Talebe uyan taslağı [iş akışıyla](aydinlatma.md) birlikte kullan. Köşeli parantezleri gerçek veri akışı ve doğrulanmış hukuki sebeple doldur. Her faaliyet için elde etme yöntemini, amaç ve dayanağı ayrı yaz. Kapsama girmeyen örnekleri çıkar. Dayanak veya aktarım doğrulanmadıysa gereken yerde yer tutucu bırak ve eksik kanıtı iç notta belirt. Yer tutucuları tamamlanmış bir metin gibi teslim etme.
 
 ## Her tam metne ekle
@@ -8,7 +10,9 @@ Talebe uyan taslağı [iş akışıyla](aydinlatma.md) birlikte kullan. Köşeli
 
 **Alıcı ve aktarım amacı.** “Kişisel verileriniz, [alıcı veya alıcı grubu] ile [paylaşılan veriler] bakımından [somut aktarım amacı] için paylaşılır.” Birden fazla alıcı varsa bu bilgi her alıcı grubu için ayrı verilir. Fiilen aktarım yoksa bunu açıkça yaz. Yurt dışı akışı varsa alıcıyı veya grubu, amacı ve doğrulanan aktarım yolunu belirt. [Yurt dışına aktarım](aktarim.md).
 
-**Haklar.** “KVKK’nın 11. maddesi kapsamında verilerinizin işlenip işlenmediğini öğrenebilir, işlenmişse bilgi isteyebilir, işleme amacını ve verilerin bu amaca uygun kullanılıp kullanılmadığını öğrenebilir ve verilerin aktarıldığı yurt içindeki veya yurt dışındaki üçüncü kişileri bilebilirsiniz. Eksik veya yanlış verilerin düzeltilmesini, m.7’deki şartlar oluştuğunda silinmesini veya yok edilmesini ve bu işlemlerin verilerin aktarıldığı üçüncü kişilere bildirilmesini isteyebilirsiniz. Yalnızca otomatik sistemlerle yapılan analiz sonucu aleyhinize bir sonuç çıkmasına itiraz edebilir ve hukuka aykırı veri işleme nedeniyle uğradığınız zararın giderilmesini talep edebilirsiniz. Bu haklara ilişkin taleplerinizi [Tebliğe uygun ve fiilen kullanılan başvuru yöntemleri, adres ve varsa ilgili kişi başvuru sayfası] üzerinden [veri sorumlusu]na iletebilirsiniz.”
+**Haklar.** “KVKK’nın 11. maddesi kapsamındaki taleplerinizi, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ’e uygun şekilde [fiilen kullanılan başvuru yöntemleri, adres, KEP ve e-posta, varsa ilgili kişi başvuru sayfası] üzerinden [veri sorumlusu]na iletebilirsiniz.” 2026/347 sayılı İlke Kararı m.11’in tamamının metne aktarılmasını gereksiz uzunluk örneği sayar ve Ek-1’de bu kısa biçimi kullanır. Hakların dökümünü yalnız kullanıcı isterse veya katmanlı sunumun ayrıntı katmanında ver. Dökümde [Kanun iskeletindeki](kanun-ozeti.md) m.11 bentlerini kullan.
+
+**Açık rıza gerekiyorsa.** Rıza metnini bu metnin içine yazma. [Açık rıza akışındaki](acik-riza.md) iskeleti ayrı başlık ve ayrı beyanla ekle.
 
 **Metnin sunulması.** Metin, kişinin onayına bağlanmadan ilgili zamanda gösterilir. Sunumun ispatı için bir beyan kullanılacaksa yalnız metnin okunduğu ve anlaşıldığına ilişkin geri bildirim alınır. Açık rızaya dayanılan ayrı bir işlem varsa belirli amaca özgü rıza metni ve bağımsız seçim eklenir. Aynı sayfada sunuluyorsa ayrı başlıklar ve ayrı beyanlar kullanılır. [2026/347 sayılı İlke Kararı ve ekleri](https://www.resmigazete.gov.tr/eskiler/2026/03/20260324-3.pdf).
 
