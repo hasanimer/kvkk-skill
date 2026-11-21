@@ -5,6 +5,8 @@
 
 import contextlib
 import io
+import os
+import tempfile
 import sys
 import unittest
 from datetime import date, datetime
@@ -86,7 +88,7 @@ class StandartSozlesme(unittest.TestCase):
 
     def test_tatil_verilmezse_uyari(self):
         sonuc = s.ss_bildirim(date(2026, 3, 4), BOS)
-        self.assertTrue(any("Dini bayram" in u for u in sonuc.uyarilar))
+        self.assertTrue(any("hiç tatil verilmedi" in u for u in sonuc.uyarilar))
 
 
 class IptalDavasi(unittest.TestCase):
@@ -107,6 +109,67 @@ class IptalDavasi(unittest.TestCase):
         # 2026-06-10 + 60 = 2026-08-09, ara verme içinde -> 7 Eylül 2026 Pazartesi
         sonuc = s.iptal_davasi(date(2026, 6, 10), {date(2099, 1, 1)})
         self.assertTrue(sonuc.son_tarih.startswith("2026-09-07"))
+
+
+    def test_hafta_sonu_uzamasi_ara_vermeye_rastlarsa_ihtiyatli_kalir(self):
+        # 2026-05-19 + 60 = 18 Temmuz Cumartesi -> 20 Temmuz Pazartesi, ara vermenin ilk günü
+        sonuc = s.iptal_davasi(date(2026, 5, 19), {date(2099, 1, 1)})
+        self.assertTrue(sonuc.son_tarih.startswith("2026-07-20"))
+        self.assertIn("2026-09-07", " ".join(sonuc.aciklama))
+
+    def test_ara_verme_sinirlari(self):
+        ornekler = [
+            ("2026-05-21", "2026-09-07"),  # 60. gün 20 Temmuz: ara vermenin ilk günü
+            ("2026-07-02", "2026-09-07"),  # 60. gün 31 Ağustos: ara vermenin son günü
+            ("2026-07-03", "2026-09-01"),  # 60. gün 1 Eylül Salı: uzama yok
+            ("2025-06-10", "2025-09-08"),  # 7 Eylül 2025 Pazar -> Pazartesi
+            ("2024-06-10", "2024-09-09"),  # 7 Eylül 2024 Cumartesi -> Pazartesi
+            ("2029-07-03", "2029-09-03"),  # 60. gün 1 Eylül 2029 Cumartesi -> Pazartesi
+        ]
+        for teblig, beklenen in ornekler:
+            with self.subTest(teblig=teblig):
+                sonuc = s.iptal_davasi(s.tarih_oku(teblig), {date(2099, 1, 1)})
+                self.assertTrue(sonuc.son_tarih.startswith(beklenen), sonuc.son_tarih)
+
+    def test_verilen_tatile_dayanan_uzama_kendiliginden_uygulanmaz(self):
+        # 2026-03-13 + 60 = 12 Mayıs Salı; kullanıcı o günü tatil verirse ihtiyatlı tarih korunur
+        sonuc = s.iptal_davasi(date(2026, 3, 13), {date(2026, 5, 12)})
+        self.assertTrue(sonuc.son_tarih.startswith("2026-05-12"))
+        self.assertTrue(any("2026-05-13" in a for a in sonuc.aciklama))
+
+
+class TatilGirdisiVeMetin(unittest.TestCase):
+    def test_tatil_dosyasi_yorum_bos_satir_ve_virgul(self):
+        with tempfile.NamedTemporaryFile("w", suffix=".txt", encoding="utf-8", delete=False) as dosya:
+            dosya.write("\ufeff# 2026 dini bayramlar\n\n2026-03-20  # 1. gün\n  2026-03-21, 2026-03-22\n")
+        self.addCleanup(os.unlink, dosya.name)
+        self.assertEqual(
+            s.tatil_listesi("2026-05-27", dosya.name),
+            {date(2026, 3, 20), date(2026, 3, 21), date(2026, 3, 22), date(2026, 5, 27)},
+        )
+
+    def test_metin_ciktisi(self):
+        tampon = io.StringIO()
+        with contextlib.redirect_stdout(tampon):
+            s.calistir(["iptal-davasi", "--teblig", "2026-06-10", "--tatil", "2099-01-01"])
+        cikti = tampon.getvalue()
+        self.assertIn("Son tarih   : 2026-09-07 Pazartesi", cikti)
+        self.assertIn("Dayanak     : 6698 m.18/3, İYUK m.7 ve m.8", cikti)
+
+    def test_gecersiz_tatil_temiz_cikar(self):
+        with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit) as hata:
+            s.calistir(["iptal-davasi", "--teblig", "2026-06-10", "--tatil", "2026-13-01"])
+        self.assertEqual(hata.exception.code, 2)
+
+    def test_cumartesi_is_gunu_sayilirsa_erken_tarih_uyarisi(self):
+        sonuc = s.ss_bildirim(date(2026, 3, 2), set())
+        self.assertTrue(sonuc.son_tarih.startswith("2026-03-09"))
+        self.assertTrue(any("2026-03-07" in u for u in sonuc.uyarilar))
+
+    def test_zimni_ret_son_gun_degil_ret_tarihi(self):
+        sonuc = s.zimni_ret(date(2026, 4, 1), set())
+        self.assertIn("zımni ret tarihi", sonuc.son_tarih)
+        self.assertTrue(any("ihtiyatlı son günü" in a for a in sonuc.aciklama))
 
 
 class DuzSureler(unittest.TestCase):

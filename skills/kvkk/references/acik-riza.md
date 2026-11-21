@@ -13,12 +13,14 @@ Bu akışı açık rıza metni hazırlarken, mevcut rıza kaydını denetlerken 
 
 ## 2. Geçerlilik unsurları
 
-| Unsur (m.3/1-a) | Kontrol sorusu | Aranacak kanıt |
+| Unsur veya yükümlülük (dayanak) | Kontrol sorusu | Aranacak kanıt |
 |---|---|---|
-| Belirli konu | Rıza tek bir amaca veya açıkça sayılmış amaçlara mı ilişkin? Birden çok amaç varsa ayrı ayrı seçilebiliyor mu? | Metindeki amaç cümlesi, amaç bazında seçim alanları |
-| Bilgilendirme | Kişi rızadan önce hangi verinin, hangi amaçla, kime aktarılarak işleneceğini öğrendi mi? Aydınlatma ayrı metinle yapıldı mı? | Aydınlatma sürümü ve sunum zamanı, rıza metni sürümü |
-| Özgür irade | Rıza vermemek asıl hizmetten yararlanmayı engelliyor mu? Taraflar arasında işveren–çalışan gibi bir bağımlılık var mı? Seçenek önceden işaretli mi? | Rızasız akışın ekran kaydı, ret hâlinde sunulan hizmet, varsayılan ayar |
-| Açıklama ve ispat | Beyan kişinin kendi olumlu hareketiyle mi oluştu? Kim, ne zaman, hangi sürüme rıza verdi? | Zaman damgalı kayıt, kanal, metin sürümü, imza veya işlem kaydı |
+| Belirli konu (m.3/1-a) | Rıza tek bir amaca veya açıkça sayılmış amaçlara mı ilişkin? Birden çok amaç varsa ayrı ayrı seçilebiliyor mu? | Metindeki amaç cümlesi, amaç bazında seçim alanları |
+| Bilgilendirme (m.3/1-a) | Kişi rızadan önce hangi verinin, hangi amaçla, kime aktarılarak işleneceğini öğrendi mi? Aydınlatma ayrı metinle yapıldı mı? | Aydınlatma sürümü ve sunum zamanı, rıza metni sürümü |
+| Özgür irade (m.3/1-a) | Rıza vermemek asıl hizmetten yararlanmayı engelliyor mu? Taraflar arasında işveren–çalışan gibi bir bağımlılık var mı? Seçenek önceden işaretli mi? | Rızasız akışın ekran kaydı, ret hâlinde sunulan hizmet, varsayılan ayar |
+| Açıklama (m.3/1-a) ve ispat (2026/347) | Beyan kişinin kendi olumlu hareketiyle mi oluştu? Kim, ne zaman, hangi sürüme rıza verdi? | Zaman damgalı kayıt, kanal, metin sürümü, imza veya işlem kaydı |
+
+m.3/1-a üç unsur sayar: belirli konu, bilgilendirme ve özgür iradeyle açıklama. İspat ayrı bir unsur değildir, veri sorumlusunun yükümlülüğüdür (2026/347).
 
 - Genel, ucu açık veya ileride belirlenecek amaçlara verilen rızayı geçerli sayma. Susmayı, hizmeti kullanmaya devam etmeyi veya önceden işaretli kutuyu rıza olarak yazma.
 - İspat yükü veri sorumlusundadır (2026/347). Kayıt yoksa rızayı alınmış gibi gösterme, eksik kanıt olarak işaretle.
@@ -28,7 +30,7 @@ Bu akışı açık rıza metni hazırlarken, mevcut rıza kaydını denetlerken 
 
 - Aydınlatma metni ile açık rıza metnini farklı başlıklar altında ayrı metinler olarak düzenle. Aynı sayfadaysa alt alta, ayrı başlıkla ve iki ayrı beyanla sun.
 - Aydınlatma için yalnız "okudum ve anladım" niteliğinde bir geri bildirim alınabilir. "Okudum ve kabul ediyorum", "onaylıyorum" veya "açık rıza veriyorum" ifadesini aydınlatmanın sonuna koyma.
-- Rıza beyanında "açık rıza veriyorum" ve "açık rıza vermiyorum" seçeneklerini birlikte sun. Metin, rızanın hangi amaç ve hukuki sebebe dayalı işleme için verildiğini söylesin.
+- Rıza beyanını Kararın Ek-1'indeki iyi uygulama şablonunda olduğu gibi "açık rıza veriyorum" ve "açık rıza vermiyorum" seçenekleriyle kur. Bu iki seçenekli düzen şablondan gelir, Kararın hüküm listesinde ayrı bir zorunluluk olarak sayılmaz. Kullanıcıya Kurumun iyi uygulama örneği olarak aktar. Metin, rızanın hangi amaç ve hukuki sebebe dayalı işleme için verildiğini söylesin.
 - Başka veri sorumlusunun metnini kopyalama. "Kişisel verileriniz Kanunun 5 ve 6. maddesi kapsamında işlenmektedir" gibi muğlak ifade, olmayan bir yurt dışı aktarımı varmış izlenimi veren cümle ve çok uzun, karmaşık metin Kararda hukuka aykırılık örnekleri arasında sayılır.
 
 ## 4. Özel durumlar
@@ -41,7 +43,7 @@ Bu akışı açık rıza metni hazırlarken, mevcut rıza kaydını denetlerken 
 
 ## 5. Açık rıza metni iskeleti
 
-Kararın Ek-1'indeki düzeni izler. Her ayrı amaç için ayrı beyan satırı kullan.
+Kararın Ek-1'indeki düzeni temel alır. Rızanın zorunlu olmadığına ve reddin sonucuna ilişkin cümleler ile her ayrı amaç için ayrı beyan satırı Ek-1'de yer almaz, bu becerinin m.3/1-a'daki belirli konu ve özgür irade unsurlarına dayanan eklemesidir. Her ayrı amaç için ayrı beyan satırı kullan.
 
 ```text
 AÇIK RIZA METNİ
@@ -55,7 +57,7 @@ Açık rıza vermek zorunda değilsiniz. Rıza vermemeniz [asıl hizmete etkisi
 yoksa bunu, varsa gerçek sonucu] sonucunu doğurur. Verdiğiniz rızayı
 [fiilen çalışan geri alma yolu] üzerinden dilediğiniz zaman geri alabilirsiniz.
 
-[Belirli amaç] amacıyla kişisel verilerimin işlenmesine
+[Belirli amaç] amacıyla kişisel verilerimin işlenmesine [varsa: ve [alıcı veya alıcı grubu] ile paylaşılmasına]
 [ ] Açık rıza veriyorum     [ ] Açık rıza vermiyorum
 
 [Ad Soyad / tarih / imza veya elektronik işlem kaydı]

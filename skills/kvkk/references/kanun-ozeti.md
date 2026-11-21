@@ -22,7 +22,7 @@ Bu dosyayı bent harflerini doğru eşleştirmek ve resmî metne erişilemeyen o
 | e | Bir hakkın tesisi, kullanılması veya korunması için zorunluluk |
 | f | İlgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla veri sorumlusunun meşru menfaatleri için zorunluluk |
 
-m.5/1 açık rızayı kural, m.5/2 rıza aranmayan hâlleri düzenler.
+m.5/1 açık rıza şartını, m.5/2 rıza aranmayan şartları sayar. Şartlar arasında seçim için [açık rıza akışının](acik-riza.md) 1. bölümünü uygula: başka bir şart gerçekten uygulanıyorsa rıza istenmez.
 
 **m.6/1 özel nitelikli veriler.** Irk, etnik köken, siyasi düşünce, felsefi inanç, din, mezhep veya diğer inançlar, kılık ve kıyafet, dernek, vakıf ya da sendika üyeliği, sağlık, cinsel hayat, ceza mahkûmiyeti ve güvenlik tedbirleri, biyometrik ve genetik veri. m.6/2 mülgadır.
 
@@ -40,14 +40,14 @@ m.5/1 açık rızayı kural, m.5/2 rıza aranmayan hâlleri düzenler.
 m.6/3'te sözleşme ve meşru menfaat şartı yoktur. m.6/4 Kurulun belirlediği yeterli önlemleri ayrıca şart koşar.
 
 - **m.7.** İşlemeyi gerektiren sebepler ortadan kalkınca veri resen veya talep üzerine silinir, yok edilir veya anonim hâle getirilir.
-- **m.8 yurt içi aktarım.** Kural açık rıza. m.5/2 şartlarından biri, özel nitelikli veride yeterli önlemler alınmak kaydıyla m.6/3 şartlarından biri varsa rıza aranmaz.
+- **m.8 yurt içi aktarım.** m.8/1 açık rızayı arar; m.5/2 şartlarından biri, özel nitelikli veride yeterli önlemler alınmak kaydıyla m.6/3 şartlarından biri varsa rıza aranmaz.
 
 ## m.9 yurt dışına aktarım
 
 m.9/1 ve m.9/4 metni, yeterlilik kararının veya uygun güvencenin yanında m.5 veya m.6 şartlarından birinin varlığını da arar. Aktaran veri sorumlusu veya veri işleyen olabilir.
 
 1. **m.9/1 yeterlilik kararı.** Ülke, ülke içindeki sektör veya uluslararası kuruluş hakkında. Kararı Kurul verir, Resmî Gazete'de yayımlanır, en geç dört yılda bir değerlendirilir (m.9/2).
-2. **m.9/4 uygun güvence.** İlgili kişinin aktarım ülkesinde de haklarını kullanma ve etkili kanun yollarına başvurma imkânı bulunması kaydıyla: (a) kamu kurumları veya uluslararası kuruluşlar arasında uluslararası sözleşme niteliğinde olmayan anlaşma ve Kurul izni, (b) Kurulca onaylanan bağlayıcı şirket kuralları, (c) Kurulun ilan ettiği standart sözleşme, (ç) yazılı taahhütname ve Kurul izni.
+2. **m.9/4 uygun güvence.** İlgili kişinin aktarım ülkesinde de haklarını kullanma ve etkili kanun yollarına başvurma imkânı bulunması kaydıyla: (a) yurt dışındaki kamu kurum ve kuruluşları veya uluslararası kuruluşlar ile Türkiye'deki kamu kurum ve kuruluşları veya kamu kurumu niteliğindeki meslek kuruluşları arasında uluslararası sözleşme niteliğinde olmayan anlaşma ve Kurul izni, (b) ortak ekonomik faaliyette bulunan teşebbüs grubu bünyesindeki şirketlerin uymakla yükümlü olduğu, Kurulca onaylanan bağlayıcı şirket kuralları, (c) Kurulun ilan ettiği standart sözleşme, (ç) yazılı taahhütname ve Kurul izni.
 3. **m.9/5.** Standart sözleşme imzalanmasından itibaren beş iş günü içinde veri sorumlusu veya veri işleyen tarafından Kuruma bildirilir.
 4. **m.9/6 istisnalar.** Yeterlilik ve uygun güvence yoksa, yalnız arızi olmak kaydıyla:
 
@@ -58,10 +58,10 @@ m.9/1 ve m.9/4 metni, yeterlilik kararının veya uygun güvencenin yanında m.5
 | c | İlgili kişi yararına veri sorumlusu ile başka bir kişi arasında yapılacak sözleşmenin kurulması veya ifası için zorunluluk |
 | ç | Üstün bir kamu yararı için zorunluluk |
 | d | Bir hakkın tesisi, kullanılması veya korunması için zorunluluk |
-| e | Rızasını açıklayamayan veya rızasına geçerlilik tanınmayan kişinin hayatı veya beden bütünlüğünün korunması için zorunluluk |
+| e | Fiilî imkânsızlık nedeniyle rızasını açıklayamayan veya rızasına hukuki geçerlilik tanınmayan kişinin kendisinin ya da başkasının hayatı veya beden bütünlüğünün korunması için aktarımın zorunlu olması |
 | f | Kamuya veya meşru menfaati bulunanlara açık sicilden, erişim şartları sağlanarak ve meşru menfaati olanın talebiyle aktarım |
 
-m.9/7: (a), (b) ve (c) bentleri kamu kurumlarının kamu hukukuna tabi faaliyetlerine uygulanmaz. m.9/8: sonraki aktarımlar ve uluslararası kuruluşlara aktarımlar aynı güvencelere tabidir. m.9/9: Türkiye'nin veya ilgili kişinin menfaatinin ciddi şekilde zarar göreceği hâlde ilgili kamu kurumunun görüşü ve Kurul izni aranır. m.9/10: diğer kanunlardaki aktarım hükümleri saklıdır.
+m.9/7: (a), (b) ve (c) bentleri kamu kurumlarının kamu hukukuna tabi faaliyetlerine uygulanmaz. m.9/8: sonraki aktarımlar ve uluslararası kuruluşlara aktarımlar aynı güvencelere tabidir. m.9/9: uluslararası sözleşme hükümleri saklı kalmak üzere, Türkiye'nin veya ilgili kişinin menfaatinin ciddi şekilde zarar göreceği hâllerde aktarım ancak ilgili kamu kurum veya kuruluşunun görüşü alınarak Kurul izniyle yapılabilir. m.9/10: diğer kanunlardaki aktarım hükümleri saklıdır.
 
 **Geçici m.3.** Eski m.9/1, değişik hâliyle birlikte 1 Eylül 2024'e kadar uygulandı. 1 Haziran 2024'te sulh ceza hâkimliklerinde görülmekte olan başvurular bu hâkimliklerce görülmeye devam eder.
 
@@ -89,7 +89,7 @@ m.9/7: (a), (b) ve (c) bentleri kamu kurumlarının kamu hukukuna tabi faaliyetl
 
 - **m.17.** Suçlarda 5237 sayılı Kanun m.135–140 uygulanır. m.7'ye aykırı olarak veriyi silmeyen veya anonim hâle getirmeyen TCK m.138'e göre cezalandırılır.
 - **m.18/1.** (a) m.10 aydınlatma yükümlülüğü, (b) m.12 veri güvenliği yükümlülükleri, (c) m.15 uyarınca verilen Kurul kararlarını yerine getirmeme, (ç) m.16 sicile kayıt ve bildirim, (d) m.9/5 standart sözleşme bildirimi. Kanun metnindeki tutarlar ilk hâldeki rakamlardır. Güncel alt ve üst sınırı her yıl için [Kurumun tablosundan](https://www.kvkk.gov.tr/Icerik/8145/6698-sayili-kisisel-verilerin-korunmasi-kanunu-kapsaminda-idari-para-cezasi-tutarlari) al.
-- **m.18/2.** (a)–(ç) bentlerinin muhatabı veri sorumlusudur. (d) bendinde veri sorumlusu veya veri işleyen gerçek kişiler ile özel hukuk tüzel kişileri muhataptır.
+- **m.18/2.** İdari para cezaları yalnızca gerçek kişiler ile özel hukuk tüzel kişileri hakkında uygulanır: (a)–(ç) bentlerinde veri sorumlusu olanlara, (d) bendinde veri sorumlusu veya veri işleyen olanlara. Kamu kurum ve kuruluşları ile kamu kurumu niteliğindeki meslek kuruluşları bu cezaların muhatabı değildir. Onlar için m.18/4 işler.
 - **m.18/3–4.** İdari para cezalarına karşı idare mahkemesinde dava açılabilir. Kamu kurumları ve kamu kurumu niteliğindeki meslek kuruluşlarında Kurulun bildirimi üzerine disiplin hükümleri uygulanır ve sonucu Kurula bildirilir.
 
 ## m.28 istisnalar

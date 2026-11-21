@@ -4,6 +4,9 @@ name: Dış bağlantı denetimi
 # çalışır ve elle de başlatılabilir. Başarısızlık, listelenen bağlantıların
 # elle kontrol edilmesi gerektiğini gösterir; bazı resmî siteler otomatik
 # istekleri reddedebilir.
+# Not: GitHub, herkese açık depolarda 60 gün etkinlik olmazsa zamanlanmış
+# iş akışlarını devre dışı bırakır. Bu durumda iş akışını Actions sekmesinden
+# yeniden etkinleştirmek gerekir.
 
 on:
   schedule:
@@ -17,7 +20,7 @@ jobs:
   baglanti:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: lycheeverse/lychee-action@v2
         with:
           args: >-

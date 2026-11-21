@@ -43,16 +43,16 @@ Kod çalıştırabilen ortamlarda beceri tarih hesabını [`scripts/sure_hesapla
 ```sh
 python3 skills/kvkk/scripts/sure_hesapla.py sikayet --basvuru 2026-03-02 --cevap-ogrenme 2026-04-11
 python3 skills/kvkk/scripts/sure_hesapla.py ihlal --ogrenme "2026-03-06 16:00"
-python3 skills/kvkk/scripts/sure_hesapla.py ss-bildirim --son-imza 2026-05-18 --tatil 2026-05-26,2026-05-27
+python3 skills/kvkk/scripts/sure_hesapla.py ss-bildirim --son-imza 2026-05-18 --tatil 2026-05-27,2026-05-28,2026-05-29,2026-05-30
 ```
 
-Sabit tarihli resmî tatiller kendiliğinden sayılır. Dini bayram ve idari izin günlerini `--tatil` ile vermen gerekir. Çıktı bir hesap yardımıdır; tetikleyici tarihi ve tebliğ anını ayrıca doğrula.
+Sabit tarihli resmî tatiller kendiliğinden sayılır. Dini bayramların tam günlerini `--tatil` ile vermen gerekir. İdari izin günlerini tatil olarak verme; 2429 sayılı Kanunda sayılan tatillerden değildir. Arife yarım gündür; son gün arifeye rastlıyorsa ihtiyatlı tarihi esas al. Çıktı bir hesap yardımıdır; tetikleyici tarihi ve tebliğ anını ayrıca doğrula.
 
 ## Bakım
 
 - Her referans dosyasının başındaki içerik tarihi notların ne zaman yazıldığını gösterir. Hukuki içeriği değiştirdiğinde tarihi ve [CHANGELOG](CHANGELOG.md) kaydını güncelle, dayanak kaynağını yaz.
-- `python3 tools/dogrula.py` paket yapısını ve iç bağlantıları, `python3 -m unittest discover -s tests` süre hesaplayıcıyı denetler. İkisi de her pull request'te çalışır. Dış bağlantılar haftada bir ayrı bir iş akışıyla denetlenir.
-- Yeni sürüm için `SKILL.md` içindeki `metadata.version` değerini artır ve aynı numarayla `v` etiketi it. `kvkk.zip` kendiliğinden üretilip yayına eklenir.
+- `python3 tools/dogrula.py` paket yapısını ve iç bağlantıları, `python3 -m unittest discover -s tests` süre hesaplayıcıyı denetler. İkisi de her pull request'te çalışır. Dış bağlantılar haftada bir ayrı bir iş akışıyla denetlenir. GitHub, herkese açık depolarda 60 gün boyunca depo etkinliği olmazsa zamanlanmış iş akışlarını kendiliğinden devre dışı bırakır; depo uzun süre değişmediyse Actions sekmesinden "Dış bağlantı denetimi" iş akışını yeniden etkinleştir veya elle çalıştır.
+- Yeni sürüm için `SKILL.md` içindeki `metadata.version` değerini artır, [CHANGELOG](CHANGELOG.md) dosyasına aynı numarayla `## x.y.z` başlığı ekle ve bölüme yayın tarihini yaz. Değişikliği `main` dalına birleştir, Doğrulama iş akışının geçtiğini gör, sonra `main` üzerindeki o commit'e aynı numarayla `v` etiketi koyup it (`git tag v1.2.0 && git push origin v1.2.0`). `kvkk.zip` kendiliğinden üretilir ve yayın, dosyasıyla birlikte iş akışı tarafından oluşturulur. Yayını GitHub arayüzünden yeni bir etiketle elle oluşturma: dosyasız yayın hemen “latest” olur ve iş akışı bitene kadar kurulum bağlantısı 404 döner. Etiketinde `-` bulunan sürümler ön sürüm olarak yayımlanır.
 - Hatalı veya eskimiş bir hukuki ifade görürsen resmî kaynağın bağlantısıyla sorun bildirimi aç.
 
 ## Kaynaklar ve lisans

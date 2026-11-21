@@ -14,8 +14,8 @@ jobs:
   paket:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Doğrula ve test et
@@ -24,9 +24,17 @@ jobs:
           python3 -m unittest discover -s tests
       - name: Etiket ile beceri sürümünü karşılaştır
         run: |
-          surum=$(sed -n 's/^  version: "\(.*\)"$/\1/p' skills/kvkk/SKILL.md)
-          if [ "v$surum" != "$GITHUB_REF_NAME" ]; then
-            echo "Etiket $GITHUB_REF_NAME, SKILL.md sürümü v$surum" >&2
+          surum=$(python3 tools/dogrula.py --surum)
+          if [ -z "$surum" ] || [ "v$surum" != "$GITHUB_REF_NAME" ]; then
+            echo "Etiket $GITHUB_REF_NAME, SKILL.md sürümü '${surum:-okunamadı}'. Etiket v<metadata.version> olmalı." >&2
+            exit 1
+          fi
+      - name: CHANGELOG bölümü yayımlanmış mı
+        run: |
+          surum="${GITHUB_REF_NAME#v}"
+          bolum=$(awk -v b="## $surum" '$0 == b {ic=1; next} /^## / {ic=0} ic' CHANGELOG.md)
+          if printf '%s\n' "$bolum" | grep -q 'Yayımlanmadı'; then
+            echo "CHANGELOG.md: $surum bölümü hâlâ 'Yayımlanmadı' diyor; yayın tarihini yazıp etiketi yeniden itin." >&2
             exit 1
           fi
       - name: kvkk.zip üret
@@ -41,5 +49,9 @@ jobs:
           if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
             gh release upload "$GITHUB_REF_NAME" kvkk.zip --clobber
           else
-            gh release create "$GITHUB_REF_NAME" kvkk.zip --title "KVKK Skill $GITHUB_REF_NAME" --generate-notes
+            ek=()
+            case "$GITHUB_REF_NAME" in
+              *-*) ek=(--prerelease --latest=false) ;;
+            esac
+            gh release create "$GITHUB_REF_NAME" kvkk.zip --verify-tag --title "KVKK Skill $GITHUB_REF_NAME" --generate-notes "${ek[@]}"
           fi

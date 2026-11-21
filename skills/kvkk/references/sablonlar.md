@@ -26,10 +26,10 @@ Kullanıcı taslak istediğinde uygun iskeleti ve gereken hukuki iş akışını
 | e | İmha tedbirleri | `[Silme, yok etme, anonimleştirme yöntemi, yedek ve tedarikçi kopyası, imha kaydı]` |
 | f | Görevliler | `[Unvan, birim ve görev tanımı]` |
 | g | Süre tablosu | `[Süreç, veri grubu, saklama süresi ve başlangıç olayı, dayanak, imha süresi]` |
-| ğ | Periyodik imha | `[Aralık; altı ayı geçemez (m.11/2)]` |
+| ğ | Periyodik imha | `[Aralık; altı ayı geçemez (İmha Yönetmeliği m.11/2)]` |
 | h | Güncelleme | `[Sürüm, tarih ve değişiklik]` |
 
-Süre tablosunu envanterdeki ve sicildeki azami sürelerle aynı tut. Dayanağı bilinmeyen süreyi tahminle doldurma, `[DOLDURULACAK: dayanak]` bırak. İmha işlemlerinin kaydı diğer hukuki yükümlülükler hariç en az üç yıl saklanır (m.7/3). Uygulama kontrolü için [uyum denetimini](denetim.md) aç.
+Süre tablosunu envanterdeki ve sicildeki azami sürelerle aynı tut. Dayanağı bilinmeyen süreyi tahminle doldurma, `[DOLDURULACAK: dayanak]` bırak. İmha işlemlerinin kaydı diğer hukuki yükümlülükler hariç en az üç yıl saklanır (İmha Yönetmeliği m.7/3). Uygulama kontrolü için [uyum denetimini](denetim.md) aç.
 
 ## Çerez tercih paneli
 

@@ -34,7 +34,7 @@ Talebe uyan taslağı [iş akışıyla](aydinlatma.md) birlikte kullan. Köşeli
 
 Referans kişisinin bilgisi adaydan alınıyorsa referans kişisinin aydınlatmasını kendi işlemine göre hazırla. Aday havuzuna alma, referans kontrolü ve işe alınan adayın özlük dosyasına aktarımı ayrı olgular olarak yaz. Saklama süresi belirtiliyorsa gerçek tetikleyiciyi ve dayanağı kullan.
 
-**Referansa ilk iletişim.** “[Veri sorumlusu] olarak [başvuru kanalı veya başka doğrulanmış kaynak] üzerinden referans kişisi olarak belirtildiniz. [İletişim bilgileriniz ve alınan görüşme notu], [yöntem] ile [referans kontrolüne özgü amaç] için [ilgili m.5/6 bendi] kapsamında işlenir. Alıcılar ve haklarınız için [ilk iletişimde bildirilen bilgi ve ayrıntılı metne erişim yolu].” Önceden bir aktarım varsa Tebliğ m.6 kapsamındaki zamanını ayrıca kontrol et.
+**Referansa ilk iletişim.** “[Veri sorumlusu] olarak [başvuru kanalı veya başka doğrulanmış kaynak] üzerinden referans kişisi olarak belirtildiniz. [İletişim bilgileriniz ve alınan görüşme notu], [yöntem] ile [referans kontrolüne özgü amaç] için [ilgili m.5/6 bendi] kapsamında işlenir. Alıcılar ve haklarınız için [ilk iletişimde bildirilen bilgi ve ayrıntılı metne erişim yolu].” Önceden bir aktarım varsa Aydınlatma Tebliği m.6 kapsamındaki zamanını ayrıca kontrol et.
 
 ## Klinik ve muayene süreci
 
