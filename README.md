@@ -43,3 +43,5 @@ Hukuki değerlendirme olay tarihine ve somut olgulara göre yapılır. Süreler,
 Depodaki özgün içerik [MIT lisansı](LICENSE) ile paylaşılır. Bağlantısı verilen üçüncü taraf kaynakları kendi koşullarına tabidir.
 
 **English.** Turkish-language Agent Skill for Türkiye’s data protection law. Install the `skills/kvkk/` folder in Codex, Claude Code, or OpenCode. The release ZIP can also be uploaded to Claude. Use official sources to verify each case.
+
+Bu beceriyi kullandığınız çalışmalarda [KVKK Skill](https://github.com/hasanimer/kvkk-skill) bağlantısını paylaşarak atıf yapmanızı rica ederiz.
